@@ -47,6 +47,7 @@
     "react-chartkick": "^0.5.3",
     "react-day-picker": "^8.10.1",
     "react-dom": "^18",
+    "react-loading-skeleton": "^3.5.0",
     "recharts": "^2.12.7",
     "resend": "^3.2.0",
     "tailwind-merge": "^2.3.0",

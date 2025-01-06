@@ -6,7 +6,7 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { Suspense } from 'react'
 import Loading from "./loading";
 export const metadata: Metadata = {
-  title: "Doctor",
+  title: "Patient",
   description: "Remote Patient Monitoring System",
 };
 
@@ -20,7 +20,7 @@ export default function RootLayout({
       <TooltipProvider>
         <body className="">
           <main className="flex h-screen overflow-hidden w-full">
-            <Sidebar userType='doctor'/>
+            <Sidebar userType='patient' />
             <div className="flex flex-col h-screen w-full">
               <Navbar />
               <ScrollArea className="pt-3">

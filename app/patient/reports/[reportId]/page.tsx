@@ -23,14 +23,14 @@ const page = () => {
   return (
     <ScrollArea>
       <div className="flex justify-around my-3 w-full">
-        <section className="flex flex-col gap-3">
+        {/* <section className="flex flex-col gap-3">
           <Link href="/doctor/patientprofile" className="border-2 p-3">
             Back to profile
           </Link>
           <Button onClick={downloadReport} variant="outline">
             Download
           </Button>
-        </section>
+        </section> */}
         <section className="report w-1/2" id="report">
           <PatientReportTemplate />
         </section>
