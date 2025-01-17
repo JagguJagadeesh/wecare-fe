@@ -13,10 +13,11 @@ import { Label } from "@/components/ui/label";
 
 export default function LoginForm() {
   return (
-    <Card className="mx-auto max-w-sm">
+    <div className="flex items-center justify-center h-screen">
+    <Card className="mx-auto max-w-sm shadow-md">
       <CardHeader>
-        <CardTitle className="text-xl">Sign Up</CardTitle>
-        <CardDescription>
+        <CardTitle className="text-xl text-center">Sign Up</CardTitle>
+        <CardDescription className="text-center">
           Enter your information to create an account
         </CardDescription>
       </CardHeader>
@@ -57,5 +58,6 @@ export default function LoginForm() {
         </div>
       </CardContent>
     </Card>
+    </div>
   );
 }

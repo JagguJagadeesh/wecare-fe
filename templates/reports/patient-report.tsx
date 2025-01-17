@@ -81,7 +81,7 @@ const PatientReportTemplate = () => {
   const TableHeads = ["Biometric", "Measurement", "Average", "Status"];
   return (
     // <div className="flex justify-center my-1 items-center h-screen w-full">
-    <div className="border-slate-500 p-5 w-[40vh] border-2 rounded-xl h-full">
+    <div className="border-slate-500 p-5 w-[40vh] border-2 rounded-xl mt-6 h-full">
       <header className="flex flex-row justify-between my-3">
         <div className="flex items-center">
           <Pencil2Icon height={50} width={50} className="mx-3" />
